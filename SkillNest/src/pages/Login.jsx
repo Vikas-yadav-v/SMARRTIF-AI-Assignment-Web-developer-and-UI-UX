@@ -22,7 +22,7 @@ function Login() {
         "http://localhost:5000/api/auth/login",
         userData
       );
-
+ 
       localStorage.setItem("token", res.data.token);
 
       alert("Login successful");
